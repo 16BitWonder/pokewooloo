@@ -40,7 +40,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw WoolooEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -554,10 +554,16 @@ TangelaEvosMoves:
 	db 48, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+WoolooEvosMoves:
 ; Evolutions
+	;db EVOLVE_LEVEL, 24, DUBWOOL - Enable when Dubwool is added
 	db 0
 ; Learnset
+	db 4,  DEFENSE_CURL
+	db 16, DOUBLE_KICK
+	db 21, HEADBUTT
+	db 25, TAKE_DOWN
+	db 40, DOUBLE_EDGE
 	db 0
 
 MissingNo20EvosMoves:

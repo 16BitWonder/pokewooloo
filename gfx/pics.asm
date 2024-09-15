@@ -64,6 +64,8 @@ TangelaPicBack::      INCBIN "gfx/pokemon/back/tangelab.pic"
 
 SECTION "Pics 2", ROMX
 
+WoolooPicFront::      INCBIN "gfx/pokemon/front/wooloo.pic"
+WoolooPicBack::       INCBIN "gfx/pokemon/back/wooloob.pic"
 GrowlithePicFront::   INCBIN "gfx/pokemon/front/growlithe.pic"
 GrowlithePicBack::    INCBIN "gfx/pokemon/back/growlitheb.pic"
 OnixPicFront::        INCBIN "gfx/pokemon/front/onix.pic"

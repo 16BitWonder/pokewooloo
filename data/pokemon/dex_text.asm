@@ -1506,3 +1506,17 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_WoolooDexEntry::
+	text "Its curly fleece"
+	next "is such an effe-"
+	next "ctive cushion"
+
+	page "that this #MON"
+	next "could fall off a"
+	next "cliff and stand"
+
+	page "right back up at"
+	next "the bottom,"
+	next "unharmed"
+	dex

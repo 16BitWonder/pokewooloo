@@ -8,8 +8,8 @@ Route2WildMons:
 	db  5, PIDGEY
 	db  6, NIDORAN_M
 	db  6, NIDORAN_F
-	db  7, PIDGEY
-	db  7, PIDGEY
+	db  5, WOOLOO
+	db  6, WOOLOO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
